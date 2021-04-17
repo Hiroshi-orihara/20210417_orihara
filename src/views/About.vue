@@ -1,5 +1,6 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="home">
+    <Home @getAddress="showAddress"></Home>
+    <p>Address： {{ address }}</p>
   </div>
 </template>
